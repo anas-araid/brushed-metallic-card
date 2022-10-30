@@ -1,0 +1,1 @@
+export { default as FrontCard } from './FrontCard'
