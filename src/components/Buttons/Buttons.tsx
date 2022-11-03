@@ -1,4 +1,4 @@
-import { METAL_URL, GRADIENT_URL } from "../../constants";
+import { METALLIC_IMAGE, GRADIENT_IMAGE } from "../../constants";
 import { ButtonContainer, MetalButton, GradientButton } from "./styled";
 
 interface Props {
@@ -7,8 +7,8 @@ interface Props {
 
 const Buttons = ({ handleClick }: Props): JSX.Element => (
   <ButtonContainer>
-    <MetalButton onClick={() => handleClick(METAL_URL)} />
-    <GradientButton onClick={() => handleClick(GRADIENT_URL)}  />
+    <MetalButton onClick={() => handleClick(METALLIC_IMAGE)} />
+    <GradientButton onClick={() => handleClick(GRADIENT_IMAGE)}  />
   </ButtonContainer>
 );
 

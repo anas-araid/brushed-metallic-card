@@ -1,15 +1,6 @@
 import styled, { keyframes } from "styled-components"
 import { CARD_HEIGHT, CARD_WIDTH } from "./constants"
 
-export const Container = styled.div`
-  display: flex;
-  background-color: black;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  flex-direction: column;
-`
-
 export const CardContainer = styled.div`
   display: flex;
   perspective: 600px;
